@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vibrant Tapestry | Therapist for Seniors in Washington State</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="font-worksans text-brand-charcoal antialiased bg-white">
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-brand-charcoal text-white p-4 z-50 flex justify-between items-center text-sm md:text-base border-t border-gray-700 hidden">
+        <p>This website uses cookies to ensure you get the best experience on our website. <a href="#" class="underline hover:text-brand-terracotta">Privacy Policy</a></p>
+        <button id="accept-cookies" class="bg-brand-rust hover:bg-brand-rust/90 text-white px-6 py-2 ml-4 uppercase tracking-widest font-article transition-colors duration-300">Accept</button>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 w-full bg-white z-40 border-b border-gray-100 h-[80px] flex items-center justify-between px-6 md:px-12 xl:px-24">
+        <a href="/" class="flex-shrink-0 z-50">
+            <h1 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[20px] md:text-[24px]">The Vibrant Tapestry</h1>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden lg:flex items-center space-x-10">
+            <a href="#" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[16px] hover:text-brand-rust transition-colors">Home</a>
+            <a href="#therapy-services" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[16px] hover:text-brand-rust transition-colors">Therapy Services</a>
+            <a href="#about" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[16px] hover:text-brand-rust transition-colors">About</a>
+            <a href="#resources" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[16px] hover:text-brand-rust transition-colors">Resources</a>
+            <a href="#faqs" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[16px] hover:text-brand-rust transition-colors">FAQs</a>
+            <a href="#contact" class="bg-brand-rust hover:bg-brand-rust/90 text-white px-6 py-3 uppercase tracking-widest font-article transition-colors duration-300">Get Started</a>
+        </nav>
+
+        <!-- Mobile Nav Toggle -->
+        <button id="mobile-menu-btn" class="lg:hidden text-brand-charcoal p-2 focus:outline-none z-50">
+            <i data-lucide="menu" class="w-8 h-8"></i>
+        </button>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-brand-sand z-50 transform translate-x-full transition-transform duration-300 ease-in-out hidden flex flex-col pt-24 px-8">
+        <button id="close-menu-btn" class="absolute top-6 right-6 text-brand-charcoal p-2 focus:outline-none">
+            <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <nav class="flex flex-col space-y-8 items-center text-center mt-12">
+            <a href="#" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[24px] hover:text-brand-rust transition-colors">Home</a>
+            <a href="#therapy-services" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[24px] hover:text-brand-rust transition-colors">Therapy Services</a>
+            <a href="#about" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[24px] hover:text-brand-rust transition-colors">About</a>
+            <a href="#resources" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[24px] hover:text-brand-rust transition-colors">Resources</a>
+            <a href="#faqs" class="font-article text-brand-charcoal uppercase tracking-[0.06em] text-[24px] hover:text-brand-rust transition-colors">FAQs</a>
+            <a href="#contact" class="bg-brand-rust hover:bg-brand-rust/90 text-white px-8 py-4 uppercase tracking-widest font-article transition-colors duration-300 mt-8 w-full max-w-xs">Get Started</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative bg-brand-sand-80 min-h-[600px] lg:min-h-[800px] flex items-center pt-12 pb-24 overflow-hidden">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+
+            <div class="space-y-8 max-w-2xl">
+                <h1 class="font-muara text-brand-forest text-[42px] md:text-[68px] lg:text-[85px] leading-[0.9] tracking-[0.01em]">
+                    Online Counseling for People experiencing the challenges of aging in washington state
+                </h1>
+                <div>
+                    <a href="#contact" class="inline-block bg-brand-terracotta hover:bg-brand-terracotta/90 text-white px-8 py-4 uppercase tracking-widest font-article transition-colors duration-300">
+                        Book a Consultation
+                    </a>
+                </div>
+            </div>
+
+            <!-- Staggered Image Arrangement -->
+            <div class="relative h-[400px] lg:h-[600px] w-full mt-12 lg:mt-0">
+                <!-- Primary image: Senior natural lit -->
+                <img src="https://images.unsplash.com/photo-1573497491765-dccce02cb704?q=80&w=800&auto=format&fit=crop"
+                     alt="Senior woman smiling warmly"
+                     class="absolute top-0 right-0 w-[80%] h-[80%] object-cover shadow-lg rounded-sm z-10 border-4 border-white">
+
+                <!-- Secondary image: Jewel toned rug / cozy setup (decorative) -->
+                <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=400&auto=format&fit=crop"
+                     alt="Cozy interior"
+                     class="absolute bottom-0 left-0 w-[40%] h-[40%] object-cover shadow-md z-20 border-4 border-white">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio & Philosophy Section -->
+    <section class="py-24 bg-white" id="about-intro">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+                <!-- Left: Text Content -->
+                <div class="space-y-8">
+                    <p class="font-worksans text-brand-charcoal text-[18px] md:text-[22px] leading-[1.8] font-medium">
+                        I specialize in working with individuals experiencing a wide range of mental health issues, with a specific focus on seniors, individuals adapting to life transitions and aging populations.
+                    </p>
+                    <p class="font-worksans text-brand-charcoal text-[16px] leading-[1.8]">
+                        Over the last 10 years, I have honed my expertise in providing compassionate and effective care tailored to the unique needs of older adults. Understanding the complexities of aging, such as coping with chronic illness, navigating retirement, experiencing loss, and adjusting to new living situations, is central to my practice. I am deeply committed to helping seniors and their families navigate these challenges, promoting resilience, mental well-being, and a renewed sense of purpose during this phase of life.
+                    </p>
+                </div>
+
+                <!-- Right: Goal Callout Card -->
+                <div class="bg-brand-sand-80 p-10 md:p-14 shadow-sm h-full flex flex-col justify-center border-t-4 border-brand-terracotta">
+                    <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[20px] mb-6">My Goal</h3>
+                    <p class="font-worksans text-brand-forest text-[20px] md:text-[26px] leading-[1.6] italic">
+                        "To empower older adults and their families to navigate challenges of aging with resilience and dignity, fostering a deep sense of connection, purpose, and peace in this profound stage of life."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Re-engagement Banner -->
+    <section class="bg-brand-forest text-white py-24 text-center">
+        <div class="container mx-auto px-6 max-w-3xl space-y-8">
+            <h2 class="font-muara text-[36px] md:text-[57px] leading-[0.9] tracking-[0.01em]">Are you ready for a vibrant life?</h2>
+            <p class="font-worksans text-[16px] md:text-[19px] leading-[1.8] font-medium">You’ve made the first step in your journey by meeting me here.</p>
+            <p class="font-worksans text-[13px] md:text-[16px] leading-[1.8]">
+                Let’s foster a relationship to empower you in personal growth and change. My goal is to explore and enhance your emotional well being in a safe space. Let’s work together and make your story matter.
+            </p>
+            <div class="pt-8">
+                <a href="#contact" class="inline-block bg-white text-brand-forest hover:bg-gray-100 px-8 py-4 uppercase tracking-widest font-article transition-colors duration-300">
+                    Book a Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Therapy Services Section -->
+    <section id="therapy-services" class="py-24 bg-brand-sand-80 relative">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24">
+            <div class="text-center mb-16">
+                <h2 class="font-muara text-brand-forest text-[36px] md:text-[57px] leading-[0.9] tracking-[0.01em]">Therapy Services</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+
+                <!-- Card 1: Individual Therapy -->
+                <div class="bg-white p-6 shadow-sm rounded-sm flex flex-col h-full transition-transform hover:-translate-y-1 duration-300">
+                    <div class="h-64 w-full mb-6 overflow-hidden rounded-sm">
+                        <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=800&auto=format&fit=crop"
+                             alt="Senior woman at a cafe"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[24px] mb-4 text-center">Individual Therapy</h3>
+                    <div class="mt-auto pt-6 text-center">
+                        <button class="modal-trigger bg-transparent border-2 border-brand-charcoal text-brand-charcoal hover:border-brand-charcoal/70 hover:text-brand-charcoal/70 px-8 py-3 uppercase tracking-widest font-article transition-colors duration-300" data-target="modal-individual">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2: Community Education -->
+                <div class="bg-white p-6 shadow-sm rounded-sm flex flex-col h-full transition-transform hover:-translate-y-1 duration-300">
+                    <div class="h-64 w-full mb-6 overflow-hidden rounded-sm">
+                        <img src="https://images.unsplash.com/photo-1543269664-56d74c622ce4?q=80&w=800&auto=format&fit=crop"
+                             alt="Reading a book on couch"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[24px] mb-4 text-center">Community Education</h3>
+                    <div class="mt-auto pt-6 text-center">
+                        <button class="modal-trigger bg-transparent border-2 border-brand-charcoal text-brand-charcoal hover:border-brand-charcoal/70 hover:text-brand-charcoal/70 px-8 py-3 uppercase tracking-widest font-article transition-colors duration-300" data-target="modal-community">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Therapist Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+                <!-- Left: Text Content -->
+                <div class="space-y-6">
+                    <h2 class="font-muara text-brand-forest text-[36px] md:text-[57px] leading-[0.9] tracking-[0.01em] mb-4">Meet the Therapist</h2>
+                    <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[24px]">Renee Hoffman, LICSW</h3>
+
+                    <div class="space-y-4 font-worksans text-brand-charcoal text-[13px] md:text-[16px] leading-[1.8] pt-4">
+                        <p>When I was in college, I started working with aging adults and their families by happenstance and I haven’t looked back since!</p>
+                        <p>I have worked hand in hand with seniors and families through some of their toughest moments in life over the last 10 years.</p>
+                        <p>From families dealing with lack of sleep due to the complexities of dementia, to spouses transitioning to home care with a loved one diagnosed with Parkinsons, I enjoy being alongside folks during these life transitions.</p>
+                        <p>I have seen the barriers of chronic illness and aging first hand, and can see how this can trigger an array of emotions for patients and their families, immediately and long term.</p>
+                        <p>There is so much unknown that life presents during this time. I know having someone to navigate the emotional complexities of these moments is crucial for overall well being as we age.</p>
+                    </div>
+
+                    <div class="pt-8">
+                        <a href="#contact" class="inline-block bg-brand-terracotta hover:bg-brand-terracotta/90 text-white px-8 py-4 uppercase tracking-widest font-article transition-colors duration-300">
+                            Meet Renee
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Profile Images -->
+                <div class="relative h-[500px] w-full">
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=400&auto=format&fit=crop"
+                         alt="Therapist professional photo"
+                         class="absolute top-0 right-0 w-[55%] h-[65%] object-cover shadow-lg rounded-sm z-20 border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop"
+                         alt="Therapist casual photo"
+                         class="absolute bottom-0 left-10 w-[60%] h-[70%] object-cover shadow-md rounded-sm z-10 border-4 border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#231D1D] text-white pt-24 pb-12">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Col 1: Logo & Mission -->
+                <div class="space-y-6">
+                    <a href="/" class="block">
+                        <span class="font-article text-brand-sand uppercase tracking-[0.08em] text-[24px]">The Vibrant Tapestry</span>
+                    </a>
+                    <p class="font-worksans text-gray-300 text-[13px] leading-[1.8]">
+                        The Vibrant Tapestry, based in the Puget Sound of Washington State, offers virtual therapy services for those dealing with the complexities of aging throughout Washington State.
+                    </p>
+                    <div class="w-32">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Gay_Pride_Flag.svg" alt="LGBTQ Affirming" class="w-full opacity-90 grayscale-[20%]">
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="space-y-4">
+                    <a href="#" class="block font-article text-brand-sand uppercase tracking-[0.06em] text-[16px] hover:text-white transition-colors">Home</a>
+                    <a href="#about" class="block font-article text-brand-sand uppercase tracking-[0.06em] text-[16px] hover:text-white transition-colors">About</a>
+                    <a href="#therapy-services" class="block font-article text-brand-sand uppercase tracking-[0.06em] text-[16px] hover:text-white transition-colors">Services</a>
+                    <a href="#faqs" class="block font-article text-brand-sand uppercase tracking-[0.06em] text-[16px] hover:text-white transition-colors">FAQs</a>
+                    <a href="#resources" class="block font-article text-brand-sand uppercase tracking-[0.06em] text-[16px] hover:text-white transition-colors">Resources</a>
+                </div>
+
+                <!-- Col 3: Contact Info -->
+                <div class="space-y-6">
+                    <a href="#contact" class="inline-block bg-white text-brand-charcoal hover:bg-gray-200 px-6 py-3 uppercase tracking-widest font-article transition-colors duration-300">
+                        Book a Consultation
+                    </a>
+                    <div class="font-worksans text-gray-300 text-[16px] space-y-2 mt-6">
+                        <p><a href="tel:2538885135" class="hover:text-white transition-colors">(253) 888-5135</a></p>
+                        <p>Office Hours: M-W, 9-4</p>
+                    </div>
+                    <div class="flex items-center space-x-2 pt-2">
+                        <i data-lucide="instagram" class="w-5 h-5 text-gray-300"></i>
+                        <a href="https://www.instagram.com/The_Vibrant_Tapestry" target="_blank" rel="noopener noreferrer" class="font-worksans text-gray-300 hover:text-white transition-colors">Follow on Instagram</a>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i data-lucide="mail" class="w-5 h-5 text-gray-300"></i>
+                        <a href="mailto:info@thevibranttapestry.com" class="font-worksans text-gray-300 hover:text-white transition-colors">info@thevibranttapestry.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Line -->
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-[13px] font-worksans text-gray-400">
+                <p>© 2024 The Vibrant Tapestry | All Rights Reserved</p>
+                <div class="flex items-center space-x-4">
+                    <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
+                    <span>|</span>
+                    <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-white transition-colors">Site Credit</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal: Individual Therapy -->
+    <div id="modal-individual" class="modal-overlay fixed inset-0 bg-brand-charcoal/80 z-50 hidden flex items-center justify-center p-4 sm:p-6 opacity-0 transition-opacity duration-300">
+        <div class="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-sm relative shadow-2xl transform scale-95 transition-transform duration-300 modal-content">
+            <div class="sticky top-0 right-0 p-4 flex justify-end bg-white/90 backdrop-blur-sm z-10 border-b border-gray-100">
+                <button class="close-modal text-brand-charcoal hover:text-brand-rust font-article uppercase tracking-widest text-sm flex items-center gap-2 transition-colors">
+                    <span>CLOSE</span>
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <div class="p-8 md:p-12 pt-4">
+                <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop" alt="Therapy session" class="w-full h-64 md:h-96 object-cover rounded-sm mb-8">
+
+                <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[24px] mb-6">Individual Therapy</h3>
+
+                <div class="space-y-6 font-worksans text-brand-charcoal text-[16px] leading-[1.8]">
+                    <p>Individual therapy for those aging is a specialized form of therapeutic support tailored to meet the unique emotional, psychological, and sometimes physical needs of older adults. This type of counseling aims to provide a safe and confidential space where clients can explore and address a wide range of concerns that affect their well-being in later stages of life.</p>
+
+                    <h4 class="font-article text-brand-rust text-[19px] uppercase tracking-[0.06em] mt-8 mb-2">Session Focus:</h4>
+                    <p>Sessions often focus on issues such as adjusting to life transitions (retirement, loss of loved ones, health changes), managing chronic illnesses or pain, coping with loneliness or isolation, navigating family dynamics, and addressing mental health conditions like depression or anxiety. There may also be a need to assist clients in developing strategies for enhancing their quality of life, maintaining independence, and finding new sources of meaning and purpose.</p>
+
+                    <h4 class="font-article text-brand-rust text-[19px] uppercase tracking-[0.06em] mt-8 mb-2">Key Aspects:</h4>
+                    <p>Key aspects of individual counseling for those aging includes empathy, respect for life experience, and a collaborative approach that honors the client's autonomy and unique perspective. There may be various therapeutic techniques utilized such as cognitive-behavioral therapy (CBT), mindfulness practices, reminiscence therapy, and solution-focused therapy to help the client process their feelings, gain insight, and develop effective coping mechanisms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Community Education -->
+    <div id="modal-community" class="modal-overlay fixed inset-0 bg-brand-charcoal/80 z-50 hidden flex items-center justify-center p-4 sm:p-6 opacity-0 transition-opacity duration-300">
+        <div class="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-sm relative shadow-2xl transform scale-95 transition-transform duration-300 modal-content">
+            <div class="sticky top-0 right-0 p-4 flex justify-end bg-white/90 backdrop-blur-sm z-10 border-b border-gray-100">
+                <button class="close-modal text-brand-charcoal hover:text-brand-rust font-article uppercase tracking-widest text-sm flex items-center gap-2 transition-colors">
+                    <span>CLOSE</span>
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <div class="p-8 md:p-12 pt-4">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Group of people" class="w-full h-64 md:h-96 object-cover rounded-sm mb-8">
+
+                <h3 class="font-article text-brand-rust uppercase tracking-[0.08em] text-[24px] mb-6">Community Education</h3>
+
+                <div class="space-y-6 font-worksans text-brand-charcoal text-[16px] leading-[1.8]">
+                    <p>Community education sessions focused on therapy for those aging play a crucial role in raising awareness, providing support, and promoting mental health and well-being among older adults. These sessions are typically designed to educate seniors, their caregivers, and the community at large about the benefits of therapy, available resources, and strategies for maintaining mental and emotional health in later life.</p>
+
+                    <p>By offering community education sessions on mental and social health for seniors, organizations and healthcare providers contribute to destigmatizing mental health issues among older adults, promoting proactive self-care, and ensuring that seniors and their caregivers have access to the resources they need to live healthier and more fulfilling lives.</p>
+
+                    <h4 class="font-article text-brand-rust text-[19px] uppercase tracking-[0.06em] mt-8 mb-4">Some key topics that can be addressed during these tailored sessions are:</h4>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Understanding depression and anxiety</li>
+                        <li>Coping with grief and loss</li>
+                        <li>Loneliness and social isolation as we age</li>
+                        <li>Family and caregiver relationships</li>
+                        <li>Managing chronic illness</li>
+                        <li>Adapting to life transitions</li>
+                        <li>Time for Q&A with follow-up and support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
