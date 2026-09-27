@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+/* Fallback local declarations if custom brand fonts are unavailable (using Times New Roman / Georgia to mimic the serif fonts used for headers) */
+@font-face {
+    font-family: 'Article';
+    src: local('Georgia');
+}
+
+@font-face {
+    font-family: 'Muara';
+    src: local('Times New Roman');
+}
